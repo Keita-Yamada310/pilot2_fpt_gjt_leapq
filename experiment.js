@@ -549,7 +549,7 @@ timeline.push({
   </div>`,
   html: `<div class="questionnaire-form exposure-form">
     <fieldset>
-      <legend><strong>1．授業の多読で使用している本を、授業外で読む</strong></legend>
+      <legend><strong>1．授業外で多読本を読む</strong></legend>
       <div class="exposure-row"><label>行った日数<select name="er_outside_days" required>${[0,1,2,3,4,5,6,7].map(v => `<option value="${v}">${v}日</option>`).join("")}</select></label>
       <label>合計時間<input name="er_outside_minutes" type="number" min="0" max="10080" step="1" required inputmode="numeric"><span>分</span></label></div>
     </fieldset>
